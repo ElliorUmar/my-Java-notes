@@ -1,0 +1,29 @@
+
+	Abstraction in Java.
+
+	What's abstraction in Java?
+	When we focus what object does instead of how it does. We can achieve abstraction in java by using abstract classes and interfaces.
+
+	Can you tell me more about abstract class?
+	- Abstract class is a class that can have abstract methods.  
+	- We cannot create object out of abstract class directly. Abstract class will be useful when it has concrete classes.
+	- Abstract  class can have regular methods and instance variables.
+
+	What's the difference between abstract class and interface?
+	- abstract class can have both asbtract and non asbstract methods and interface can have only abstract methods(except default and static).
+	- abstract class can have instance variables but interface can have only public static final variables.
+	- we can extends only one abstract class but we can implement many interfaces.
+	- abstract class use extends(inheritance) and interface uses implements.
+
+	What are the two type of methods that can have bodies in the interface?
+	- default and static methods can have bodies
+	
+
+
+
+
+
+
+
+
+

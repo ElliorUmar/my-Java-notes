@@ -1,0 +1,39 @@
+Exception Interview Questions
+
+	What's are the differences between runtime and checked exceptions?
+	- runtime excpetions are optional to handle and checked exceptions we must handle them.
+	- All runtime exceptions extends from RuntimeException class and checked exceptions are extends from Exception class(except RuntimeException).
+
+	How do you handle exceptions in Java?
+	- I use try catch.
+
+	When do you get NullPointerException?
+	- when object is null and then when we try to use some properties or methods.
+	  String str = null;
+	  System.out.println(str.length()); // NullPointerException is here
+
+	What are the final, finally, and finalize keyword in java?
+	final:
+	- if we make our variable final, we cannot change the value(constants)
+	- if we make our class final, we cannot extend it.
+	- if we make our method final, we cannot override it.
+
+	fianlly:
+	- we use finally together with try catch statement. finally block always runs. Usually we use it to close our resources(file, db connections).
+
+	finalize:
+	- suggestion to GC for clean up.
+
+	What are the Error in java?
+	- Usually they thrown by JVM.
+	- We don't work with error - we don't handle them, and we don't throw them.
+	- Examples for error - memory overflow.
+
+
+
+
+
+
+
+
+

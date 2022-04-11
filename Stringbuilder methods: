@@ -1,0 +1,27 @@
+Stringbuilder methods:
+
+StringBuilder sb = new StringBuilder();
+
+sb.append("animals");
+
+char ch = sb.charAt(0);
+
+int i = sb.indexOf("y");
+
+String str = sb.substring(0, 3);
+
+sb.insert(3, "-");
+
+sb.delete(1, 3);
+
+sb.reverse();
+
+String str1 = "Gulbakhor";
+		System.out.println(str1);
+		StringBuilder s = new StringBuilder(str1);
+		s.reverse();
+		System.out.println(s);
+		
+
+
+

@@ -1,0 +1,18 @@
+Set and its implementations
+		// What's Set in Java and what are implementations of set do you know?
+		// Set is of the data structures in Java collections that doesn't allow duplicates
+		// HashSet:
+		//  - does not allow duplicates
+		//  - it doesn't maintain insertion order
+		// LinkedHashSet:
+		//  - does not allow duplicates
+		//  - it maintains insertion order
+		// TreeSet:
+		//  - does not allow duplicates
+		//  - it keeps elements in sorted order
+		
+		// Queue
+		// FIFO - First In, First Out 
+		
+		// Stack
+		// LIFO - Last In, First Out

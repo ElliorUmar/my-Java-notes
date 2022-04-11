@@ -1,0 +1,11 @@
+
+Convert from String to Numeric time:
+
+		DateTimeFormatter f = DateTimeFormatter.ofPattern("MMMM d, uuuu");
+		LocalDate date = LocalDate.parse(str, f);
+
+Convert from Numeric time to String type:
+		LocalDate dateFromWebsite = LocalDate.parse(str);
+		System.out.println("date: " + dateFromWebsite);
+		String dayOfWeek = dateFromWebsite.getDayOfWeek().name();
+		System.out.println(dayOfWeek);

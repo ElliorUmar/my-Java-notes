@@ -1,0 +1,16 @@
+// Map is key value data structure. 
+		// Map is not part of the collections because it doesn't extend Collections or Iterable, 
+		// but still java provides Map as ready API for us to use.
+		// Each element of the map referred as entity.
+		// Map works with Object only for keys and values
+		// Map<K, V>
+		// K - data type for Key
+		// V - data type for Value
+
+
+		Map is key value data structure
+	- the keys are unique in map.
+	- map doesn't extend Collection interface.
+
+	How to iterate over the map?
+	- we can get all the keys by using keySet and iterate over the keys, once we have keys we can get correct values by using get(K) method

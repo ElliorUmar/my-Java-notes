@@ -1,0 +1,31 @@
+// @Override
+	// - Method name and arguments should be the same
+	// - Return type should be same or covariant
+	// - Method access modifier should be the same 
+	//   or more visible in the child method.
+	// - if parent method has exception declaration
+	//   the child method can have the same or smaller
+	//   exception declaration or none.
+
+* What happens when child class will have same variables/static methods?
+ * Child class will hide the parent class variables/static methods
+ * or we can say variables will shadow the parent's variables.
+
+ The difference between method overriding and hiding.
+		// Java will know which method to call only during runtime
+		// for overloaded methods. That's the reason overriding 
+		// referred as runtime polymorphism.
+
+
+
+		// this. keyword refers to current object's properties/methods
+		// super. keyword refers to parent class properties/methods
+	
+
+
+	* - final variables cannot be reassigned 
+ * - final classes cannot be extended
+ * - final methods cannot be overridden
+
+  * How to prevent your method for being overridden?
+ * - by making it final

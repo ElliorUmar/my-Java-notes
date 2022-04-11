@@ -1,0 +1,16 @@
+/*
+ * 1. Abstract classes cannot be instantiated directly.
+ * we cannot create objects out of abstract classes.
+ * 
+ * 2. Abstract classes can have abstract methods.
+ * 
+ * 3. Abstract classes can have regular methods and instance variables
+ * 
+ * 4. Abstract classes cannot be tagged as final, private and protected
+ * 
+ * 5. If regular class extends abstract class, it must implement(override)
+ *    abstract methods of abstract class.
+ *    
+ * 6. If abstract class extends abstract class, it is not required to
+ *    override abstract methods.    
+ */
